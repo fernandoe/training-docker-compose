@@ -9,6 +9,17 @@ div h1 {
     text-align: center;
 }
 
+div#docker-compose h1 {
+    font-size: 100%;
+    margin-bottom: 50px;
+}
+
+
+div#questions {
+    text-align: center;
+}
+
+
 p {
     font-weight: normal;
     margin-bottom: 0.3em;

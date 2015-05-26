@@ -24,8 +24,9 @@ Docker Compose
 
 Example
 =======
+  * Application ABC
 
-  * Dependecies 
+  * Dependencies
 
       * MySQL
       * Redis
@@ -43,11 +44,20 @@ https://registry.hub.docker.com/
 
 ----
 
+:data-x: r+1500
+:data-y: r+0
+:data-scale: 1
+
+----
+
+:data-x: r+0
+:data-y: r-200
+:data-scale: .5
+:id: docker-compose
+
 docker-compose.yml
 ==================
 
-MySQL
------
 
 .. code:: yaml
 
@@ -61,11 +71,8 @@ MySQL
 
 ----
 
-docker-compose.yml
-==================
-
-MongoDB
--------
+:data-x: r+0
+:data-y: r+110
 
 .. code:: yaml
 
@@ -76,11 +83,7 @@ MongoDB
 
 ----
 
-docker-compose.yml
-==================
-
-Redis
------
+:data-y: r+70
 
 .. code:: yaml
 
@@ -91,11 +94,7 @@ Redis
 
 ----
 
-docker-compose.yml
-==================
-
-App
----
+:data-y: r+80
 
 .. code:: yaml
 
@@ -109,11 +108,7 @@ App
 
 ----
 
-docker-compose.yml
-==================
-
-Celery
-------
+:data-y: r+100
 
 .. code:: yaml
 
@@ -126,6 +121,10 @@ Celery
       - mongo
 
 ----
+
+:data-scale: 1
+:data-x: r+1500
+:data-y: r-200
 
 Dockerfile
 ==========
@@ -157,6 +156,9 @@ Dockerfile
 
 ----
 
+:data-y: r+0
+:data-x: r+1500
+
 Putting It All Together
 =======================
 
@@ -173,3 +175,24 @@ Running
 .. code:: shell
 
   $ docker-compose up
+
+----
+
+:id: questions
+
+Questions?
+==========
+
+.. image:: images/img-04.jpg
+    :width: 400px
+
+Thank you! Fernando Espíndola
+------------------------------
+
++------------------------------------+-----------------------------------------+
+| .. image:: images/gmail-logo.jpg   |  fer.esp@gmail.com                      |
+|         :height: 20px              |                                         |
++------------------------------------+-----------------------------------------+
+| .. image:: images/twitter-logo.jpg | `@feresp <https://twitter.com/feresp>`_ |
+|         :height: 35px              |                                         |
++------------------------------------+-----------------------------------------+
