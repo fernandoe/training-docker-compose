@@ -162,19 +162,12 @@ Dockerfile
 Putting It All Together
 =======================
 
-Build
------
-
 .. code:: shell
 
   $ docker-compose build
-
-Running
--------
-
-.. code:: shell
-
   $ docker-compose up
+
+https://youtu.be/k9nVybq6ess
 
 ----
 
